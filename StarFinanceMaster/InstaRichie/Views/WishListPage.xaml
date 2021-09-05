@@ -120,9 +120,7 @@
                         <TextBox x:Name="MoneyIn" Header="Amount" PlaceholderText="1000.00" TextWrapping="Wrap" InputScope="Number"/>
                     </StackPanel>
                     <ListView x:Name="WishListView" Grid.Row="1"
-                              HorizontalAlignment="Stretch"
-                              VerticalAlignment="Stretch"
-                              ItemTemplate="{StaticResource WishListDataViews}">
+                              ItemTemplate="{StaticResource WishListDataViews}" Margin="-10,0,10,0">
                         <RelativePanel.Below>pageStart</RelativePanel.Below>
                     </ListView>
                 </Grid>
