@@ -12969,7 +12969,6 @@
       "path": "microsoft.netcore.runtime/1.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "microsoft.netcore.runtime.1.0.1.nupkg.sha512",
@@ -12982,7 +12981,6 @@
       "path": "microsoft.netcore.runtime.coreclr/1.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "microsoft.netcore.runtime.coreclr.1.0.1.nupkg.sha512",
@@ -12996,7 +12994,6 @@
       "path": "microsoft.netcore.runtime.native/1.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "microsoft.netcore.runtime.native.1.0.1.nupkg.sha512",
@@ -13031,7 +13028,6 @@
       "path": "microsoft.netcore.universalwindowsplatform/5.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "microsoft.netcore.universalwindowsplatform.5.1.0.nupkg.sha512",
@@ -13487,7 +13483,6 @@
       "path": "runtime.any.system.private.datacontractserialization/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/DNXCore50/System.Private.DataContractSerialization.dll",
@@ -13504,7 +13499,6 @@
       "path": "runtime.aot.system.private.datacontractserialization/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/dotnet/_._",
@@ -13519,7 +13513,6 @@
       "path": "runtime.win7-x64.microsoft.netcore.runtime.coreclr/1.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/dotnet/_._",
@@ -13541,7 +13534,6 @@
       "path": "runtime.win7-x86.microsoft.netcore.runtime.coreclr/1.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/dotnet/_._",
@@ -13563,7 +13555,6 @@
       "path": "runtime.win8-arm.microsoft.netcore.runtime.coreclr/1.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/dotnet/_._",
@@ -13784,7 +13775,6 @@
       "path": "system.collections.specialized/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Collections.Specialized.dll",
@@ -13914,7 +13904,6 @@
       "path": "system.data.common/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Data.Common.dll",
@@ -14459,7 +14448,6 @@
       "path": "system.io.isolatedstorage/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/netcore50/System.IO.IsolatedStorage.dll",
@@ -14685,7 +14673,6 @@
       "path": "system.net.http.rtc/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/netcore50/System.Net.Http.Rtc.dll",
         "lib/win8/_._",
         "ref/dotnet/System.Net.Http.Rtc.dll",
@@ -14785,7 +14772,6 @@
       "path": "system.net.requests/4.0.10",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Net.Requests.dll",
@@ -14818,7 +14804,6 @@
       "path": "system.net.sockets/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net46/System.Net.Sockets.dll",
@@ -14851,7 +14836,6 @@
       "path": "system.net.webheadercollection/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Net.WebHeaderCollection.dll",
@@ -14906,7 +14890,6 @@
       "path": "system.numerics.vectors.windowsruntime/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/dotnet/System.Numerics.Vectors.WindowsRuntime.dll",
         "system.numerics.vectors.windowsruntime.4.0.0.nupkg.sha512",
         "system.numerics.vectors.windowsruntime.nuspec"
@@ -14950,7 +14933,6 @@
       "path": "system.private.datacontractserialization/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/dnxcore50/_._",
@@ -14980,7 +14962,6 @@
       "path": "system.private.servicemodel/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/DNXCore50/System.Private.ServiceModel.dll",
         "lib/netcore50/System.Private.ServiceModel.dll",
         "ref/dnxcore50/_._",
@@ -15044,7 +15025,6 @@
       "path": "system.reflection.context/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Context.dll",
         "lib/win8/_._",
@@ -15540,7 +15520,6 @@
       "path": "system.runtime.serialization.json/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/DNXCore50/System.Runtime.Serialization.Json.dll",
@@ -15594,7 +15573,6 @@
       "path": "system.runtime.serialization.primitives/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -15661,7 +15639,6 @@
       "path": "system.runtime.serialization.xml/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/DNXCore50/System.Runtime.Serialization.Xml.dll",
@@ -15757,7 +15734,6 @@
       "path": "system.runtime.windowsruntime.ui.xaml/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/netcore50/System.Runtime.WindowsRuntime.UI.Xaml.dll",
         "lib/win8/_._",
         "lib/wpa81/_._",
@@ -15851,7 +15827,6 @@
       "path": "system.servicemodel.duplex/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.Duplex.dll",
         "lib/net45/_._",
         "lib/netcore50/System.ServiceModel.Duplex.dll",
@@ -15881,7 +15856,6 @@
       "path": "system.servicemodel.http/4.0.10",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.Http.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -15915,7 +15889,6 @@
       "path": "system.servicemodel.nettcp/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.NetTcp.dll",
         "lib/net45/_._",
         "lib/netcore50/System.ServiceModel.NetTcp.dll",
@@ -15945,7 +15918,6 @@
       "path": "system.servicemodel.primitives/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.Primitives.dll",
         "lib/net45/_._",
         "lib/netcore50/System.ServiceModel.Primitives.dll",
@@ -15975,7 +15947,6 @@
       "path": "system.servicemodel.security/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/DNXCore50/System.ServiceModel.Security.dll",
         "lib/net45/_._",
         "lib/netcore50/System.ServiceModel.Security.dll",
@@ -16039,7 +16010,6 @@
       "path": "system.text.encoding.codepages/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Text.Encoding.CodePages.dll",
@@ -16372,7 +16342,6 @@
       "path": "system.xml.xmldocument/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/dotnet/System.Xml.XmlDocument.dll",
@@ -16405,7 +16374,6 @@
       "path": "system.xml.xmlserializer/4.0.10",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/DNXCore50/System.Xml.XmlSerializer.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -16470,18 +16438,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kayla\\.nuget\\packages\\": {},
+    "C:\\Users\\RJSTUDY\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\5TSDrepos1\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
+      "projectUniqueName": "G:\\5TSD\\StarFinanceMaster-working\\InstaRichie\\Start Finance.csproj",
       "projectName": "Start Finance",
-      "projectPath": "C:\\5TSDrepos1\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
-      "packagesPath": "C:\\Users\\Kayla\\.nuget\\packages\\",
-      "outputPath": "C:\\5TSDrepos1\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\obj\\",
+      "projectPath": "G:\\5TSD\\StarFinanceMaster-working\\InstaRichie\\Start Finance.csproj",
+      "packagesPath": "C:\\Users\\RJSTUDY\\.nuget\\packages\\",
+      "outputPath": "G:\\5TSD\\StarFinanceMaster-working\\InstaRichie\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -16489,7 +16457,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kayla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RJSTUDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
