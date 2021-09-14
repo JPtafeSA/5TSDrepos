@@ -5,18 +5,18 @@
     <RootPropertyPathName Name="InitialAmount" />
     <RootPropertyPathName Name="AccountName" />
     <RootPropertyPathName Name="ID" />
-    <RootPropertyPathName Name="EndTime" />
-    <RootPropertyPathName Name="StartTime" />
-    <RootPropertyPathName Name="EventDate" />
-    <RootPropertyPathName Name="Location" />
-    <RootPropertyPathName Name="EventName" />
-    <RootPropertyPathName Name="AppointmentID" />
     <RootPropertyPathName Name="AssetValue" />
     <RootPropertyPathName Name="AssetName" />
     <RootPropertyPathName Name="DebtAmount" />
     <RootPropertyPathName Name="DebtName" />
     <RootPropertyPathName Name="DateofDebt" />
     <RootPropertyPathName Name="Value" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="Gender" />
+    <RootPropertyPathName Name="DOB" />
+    <RootPropertyPathName Name="Surname" />
+    <RootPropertyPathName Name="FirstName" />
+    <RootPropertyPathName Name="PersonalID" />
     <RootPropertyPathName Name="AboutPartViewModel" />
     <RootPropertyPathName Name="Version" />
     <RootPropertyPathName Name="Publisher" />
@@ -69,8 +69,8 @@
       <RootProperty Name="Text" />
       <RootProperty Name="SecondaryCommands" />
       <RootProperty Name="PrimaryCommands" />
-      <RootProperty Name="Content" />
       <RootProperty Name="Frame" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="Background" />
@@ -120,13 +120,12 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="FontStyle" />
-      <RootProperty Name="FontWeight" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Style" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Inlines" />
@@ -196,9 +195,9 @@
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Header" />
@@ -208,8 +207,8 @@
       <RootProperty Name="MinWidth" />
       <RootProperty Name="MinHeight" />
       <RootProperty Name="Text" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Loaded" />
       <RootEvent Name="TextChanged" />
@@ -238,17 +237,6 @@
       <RootProperty Name="FallbackValue" />
     </RootType>
     <RootType FullName="StartFinance.Views.AccountsPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">
-      <RootProperty Name="Header" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
-      <RootProperty Name="Header" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-    </RootType>
-    <RootType FullName="StartFinance.Views.AppointmentsPage" />
     <RootType FullName="StartFinance.Views.AssetsPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
@@ -328,6 +316,16 @@
       <RootProperty Name="TargetObject" />
     </RootType>
     <RootType FullName="StartFinance.Views.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
+      <RootProperty Name="GroupName" />
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="StartFinance.Views.PersonalInfo" />
     <RootType FullName="StartFinance.ViewModels.SettingsPageViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="HorizontalAlignment" />
@@ -389,6 +387,11 @@
     </RootType>
     <RootType FullName="StartFinance.Views.Splash" />
     <RootType FullName="StartFinance.Views.TransactionListPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">
+      <RootProperty Name="Header" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
       <RootProperty Name="Content" />
     </RootType>
