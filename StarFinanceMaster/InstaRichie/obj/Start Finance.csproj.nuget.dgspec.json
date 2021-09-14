@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\5TSDrepos_Clone\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {}
+    "G:\\5TSD\\StarFinanceMaster-working\\InstaRichie\\Start Finance.csproj": {}
   },
   "projects": {
-    "G:\\5TSDrepos_Clone\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {
+    "G:\\5TSD\\StarFinanceMaster-working\\InstaRichie\\Start Finance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\5TSDrepos_Clone\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
+        "projectUniqueName": "G:\\5TSD\\StarFinanceMaster-working\\InstaRichie\\Start Finance.csproj",
         "projectName": "Start Finance",
-        "projectPath": "G:\\5TSDrepos_Clone\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
+        "projectPath": "G:\\5TSD\\StarFinanceMaster-working\\InstaRichie\\Start Finance.csproj",
         "packagesPath": "C:\\Users\\RJSTUDY\\.nuget\\packages\\",
-        "outputPath": "G:\\5TSDrepos_Clone\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\obj\\",
+        "outputPath": "G:\\5TSD\\StarFinanceMaster-working\\InstaRichie\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
