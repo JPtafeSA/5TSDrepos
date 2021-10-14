@@ -557,3 +557,14 @@ G:\5TSD\StarFinanceMaster-working\InstaRichie\obj\x64\Debug\Views\AppointmentsPa
 G:\5TSD\StarFinanceMaster-working\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.xaml
 G:\5TSD\StarFinanceMaster-working\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.xbf
 G:\5TSD\StarFinanceMaster-working\InstaRichie\obj\x64\Debug\Start Finance.csproj.AssemblyReference.cache
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\AppointmentsPage.xbf
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\PersonalInfo.xbf
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.g.i.cs
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.g.cs
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\PersonalInfo.g.i.cs
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\PersonalInfo.g.cs
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.xaml
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\PersonalInfo.xaml
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.xbf
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\PersonalInfo.xbf
+G:\5TSDrepos\StarFinanceMaster\InstaRichie\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885562160000000.json

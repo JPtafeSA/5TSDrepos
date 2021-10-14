@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ECljXWHWeeSL/qRLF2jU2PWaSjQ8hgps5BCPAw2JJcI4zOF/0nA0m7cvHSkhTppLvH4dcXH39eys1LK77q2unA==",
+  "dgSpecHash": "kNvPvcRhYaPJEKC7LwabuCig6jlMx6P5zcUDrPuaxow1cNXCr4dDHiv2OXv+yI+HnNXeS44IQzgqwU2/pRtngQ==",
   "success": true,
-  "projectFilePath": "G:\\5TSD\\StarFinanceMaster-working\\InstaRichie\\Start Finance.csproj",
+  "projectFilePath": "G:\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RJSTUDY\\.nuget\\packages\\crosspiecharts.uwp\\1.0.2\\crosspiecharts.uwp.1.0.2.nupkg.sha512",
     "C:\\Users\\RJSTUDY\\.nuget\\packages\\microsoft.csharp\\4.0.0\\microsoft.csharp.4.0.0.nupkg.sha512",
