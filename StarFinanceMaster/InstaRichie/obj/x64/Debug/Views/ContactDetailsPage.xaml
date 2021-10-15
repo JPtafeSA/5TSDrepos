@@ -1,0 +1,133 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="StartFinance.Views.ContactDetailsPage"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:Behaviors="using:Template10.Behaviors"
+      xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
+      xmlns:Interactivity="using:Microsoft.Xaml.Interactivity"
+      xmlns:controls="using:Template10.Controls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:StartFinance.Views"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                          
+      xmlns:vm="using:StartFinance.ViewModels" mc:Ignorable="d">
+
+    <!-- CREATED BY Ngoc -->
+
+    <Page.DataContext>
+        <vm:MainPageViewModel x:ConnectionId='2' x:Name="ViewModel" />
+    </Page.DataContext>
+
+    <Page.Resources>
+        <DataTemplate x:Key="ContactDetailsDataView">
+            <Grid>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{Binding ContactID}" Padding="0,0,15,0"/>
+                    <TextBlock Text="{Binding FirstName}" Padding="0,0,15,0"/>
+                    <TextBlock Text="{Binding LastName}" Padding="0,0,15,0"/>
+                    <TextBlock Text="{Binding CompanyName}" Padding="0,0,15,0"/>
+                    <TextBlock Text="{Binding MobilePhone}" Padding="0,0,15,0"/>
+
+
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <RelativePanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='4' x:Name="AdaptiveVisualStateGroup">
+                <VisualState x:ConnectionId='5' x:Name="VisualStateNarrow">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource NarrowMinWidth}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+
+                        <Setter Target="ContactDetailsView.(RelativePanel.Below)" Value="pageStart"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='6' x:Name="VisualStateNormal">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource NormalMinWidth}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+
+                        <Setter Target="ContactDetailsView.(RelativePanel.Below)" Value="pageStart"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='7' x:Name="VisualStateWide">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource WideMinWidth}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+
+                        <Setter Target="ContactDetailsView.(RelativePanel.Below)" Value="pageStart"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <controls:PageHeader x:ConnectionId='8' x:Name="pageHeader" RelativePanel.AlignLeftWithPanel="True"
+                             RelativePanel.AlignRightWithPanel="True"
+                             RelativePanel.AlignTopWithPanel="True" Text="Appointment List" Content="Appointment">
+
+            <!--  secondary commands  -->
+            <controls:PageHeader.SecondaryCommands>
+                <AppBarButton x:ConnectionId='24'                                         Label="Settings" />
+                <AppBarButton x:ConnectionId='25'                                        Label="Privacy" />
+                <AppBarButton x:ConnectionId='26'                                      Label="About" />
+            </controls:PageHeader.SecondaryCommands>
+
+        </controls:PageHeader>
+
+        <controls:PageHeader x:ConnectionId='9' x:Name="pageFooter" RelativePanel.AlignLeftWithPanel="True"
+                             RelativePanel.AlignRightWithPanel="True"
+                             RelativePanel.AlignBottomWithPanel="True">
+            <!--primary commands-->
+            <controls:PageHeader.PrimaryCommands>
+                <AppBarButton x:ConnectionId='21' Icon="Add" Label="Add Contacts"                         />
+                <AppBarButton x:ConnectionId='22' Icon="Delete" Label="Delete Contacts"                            />
+                <AppBarButton x:ConnectionId='23' Icon="Edit" Label="Edit Contacts"                            />
+            </controls:PageHeader.PrimaryCommands>
+        </controls:PageHeader>
+
+        <!--Page Contents start here-->
+        <Pivot>
+            <RelativePanel.Below>pageHeader</RelativePanel.Below>
+            <RelativePanel.Above>pageFooter</RelativePanel.Above>
+            <PivotItem Header="Add Contact Details">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="300"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0"
+                            Orientation="Vertical" VerticalAlignment="Stretch"
+                            HorizontalAlignment="Stretch">
+                        <TextBox x:ConnectionId='16' x:Name="_FirstName" PlaceholderText="FirstName" Header="First Name"/>
+                        <TextBox x:ConnectionId='17' x:Name="_LastName" Header="LastName" PlaceholderText="LastName" TextWrapping="Wrap" />
+                        <TextBox x:ConnectionId='18' x:Name="_CompanyName" Header="CompanyName" PlaceholderText="CompanyName" TextWrapping="Wrap" />
+                        <TextBox x:ConnectionId='19' x:Name="_MobilePhone" Header="MobilePhone" PlaceholderText="MobilePhone" TextWrapping="Wrap" />
+                        <TextBlock x:ConnectionId='20' x:Name="Note" Text="if you are Editing a Record below please make sure you have filled in all the above fields" FontStyle="Italic" FontWeight="Bold"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <TextBlock x:ConnectionId='11' x:Name="ContactIDHeader" Text="ContactID" Padding="0,0,15,0"/>
+                        <TextBlock x:ConnectionId='12' x:Name="FirstNameHeader" Text="First Name"  Padding="0,0,15,0"/>
+                        <TextBlock x:ConnectionId='13' x:Name="LastNameHeader" Text="Last Name"  Padding="0,0,15,0"/>
+                        <TextBlock x:ConnectionId='14' x:Name="CompanyNameHeader" Text="Company Name"  Padding="0,0,15,0"/>
+                        <TextBlock x:ConnectionId='15' x:Name="MobilePhoneHeader" Text="Mobile Phone"  Padding="0,0,15,0"/>
+
+                    </StackPanel>
+                    <ListView x:ConnectionId='10' x:Name="ContactDetailsView" Grid.Row="2"
+                              ItemTemplate="{StaticResource ContactDetailsDataView}" Margin="-10,0,10,0">
+                        <RelativePanel.Below>pageStart</RelativePanel.Below>
+                    </ListView>
+                </Grid>
+            </PivotItem>
+        </Pivot>
+    </RelativePanel>
+</Page>
+
+

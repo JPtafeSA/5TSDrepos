@@ -98,7 +98,7 @@
                                Text="WishList" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
-
+ <!-- PersonalInfo  button  -->
             <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:PersonalInfo" 
                                           AutomationProperties.Name="Jerry"
                                           >
@@ -109,7 +109,7 @@
                                Text="Personal Info" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
-
+ <!-- AppointmentsPage  button  -->
             <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:AppointmentsPage" 
                                           AutomationProperties.Name="Jerry"
                                           >
@@ -118,6 +118,18 @@
                                 Symbol="List" />
                     <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
                                Text="Appointments Page" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
+			
+			 <!-- Contact Details  button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:ContactDetailsPage" 
+                                          AutomationProperties.Name="Jerry"
+                                          >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="ProtectedDocument" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="ContactDetailsPage" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
 

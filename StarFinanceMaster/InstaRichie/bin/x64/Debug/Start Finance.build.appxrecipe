@@ -424,6 +424,9 @@
     <AppxPackagedFile Include="G:\5TSDrepos\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Busy.xbf">
       <PackagePath>Views\Busy.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\5TSDrepos\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\ContactDetailsPage.xbf">
+      <PackagePath>Views\ContactDetailsPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="G:\5TSDrepos\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DashBoardPage.xbf">
       <PackagePath>Views\DashBoardPage.xbf</PackagePath>
     </AppxPackagedFile>

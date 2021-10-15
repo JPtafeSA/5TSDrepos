@@ -13,6 +13,7 @@ Views\AccountsPage.xbf
 Views\AppointmentsPage.xbf
 Views\AssetsPage.xbf
 Views\Busy.xbf
+Views\ContactDetailsPage.xbf
 Views\DashBoardPage.xbf
 Views\DebtPage.xbf
 Views\DetailPage.xbf
