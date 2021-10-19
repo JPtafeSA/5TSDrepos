@@ -16438,18 +16438,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RJSTUDY\\.nuget\\packages\\": {},
+    "C:\\Users\\Kayla\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
+      "projectUniqueName": "C:\\New folder\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
       "projectName": "Start Finance",
-      "projectPath": "G:\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
-      "packagesPath": "C:\\Users\\RJSTUDY\\.nuget\\packages\\",
-      "outputPath": "G:\\5TSDrepos\\StarFinanceMaster\\InstaRichie\\obj\\",
+      "projectPath": "C:\\New folder\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
+      "packagesPath": "C:\\Users\\Kayla\\.nuget\\packages\\",
+      "outputPath": "C:\\New folder\\StarFinanceMaster\\InstaRichie\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -16457,7 +16457,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\RJSTUDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kayla\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -61,11 +61,13 @@ namespace StartFinance.Views
             {
                 if (_firstName.Text.ToString() == "" || _surname.Text.ToString() == "")
                 {
-
+                    MessageDialog dialog = new MessageDialog("You must enter all fields", "Oops..!");
+                    await dialog.ShowAsync();
                 }
                 else if (_DOB.SelectedDate == null)
                 {
-
+                    MessageDialog dialog = new MessageDialog("You must enter all fields", "Oops..!");
+                    await dialog.ShowAsync();
                 }
                 else if (_email.Text.ToString() == "")
                 {

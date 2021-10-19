@@ -1,1 +1,1 @@
-G:\5TSDrepos\StarFinanceMaster\InstaRichie\Start Finance.csproj;x64
+C:\New folder\StarFinanceMaster\InstaRichie\Start Finance.csproj;x64
