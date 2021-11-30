@@ -18,7 +18,6 @@ using Windows.UI.Popups;
 using SQLite.Net;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
-//created by Ngoc
 
 namespace StartFinance.Views
 {
@@ -131,11 +130,11 @@ namespace StartFinance.Views
             try
 
             {
-                int Appid = ((ContactDetail)ContactDetailsView.SelectedItem).ContactID;
+                int Appid = ((ContactDetail)ContactDetailsView.SelectedItem).ContactID;           
 
                 // var setFirstName = conn.Query<ContactDetail>("SELECT FirstName FROM ContactDetail WHERE ContactID =" + Appid + "");
 
-                //         _FirstName.Text = setFirstName.ToString();
+       //         _FirstName.Text = setFirstName.ToString();
 
                 if (_FirstName.Text.ToString() == "")
                 {

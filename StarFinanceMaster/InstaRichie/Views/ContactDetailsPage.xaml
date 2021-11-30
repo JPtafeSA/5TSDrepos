@@ -12,7 +12,7 @@
       Loaded="Page_Loaded"
       xmlns:vm="using:StartFinance.ViewModels" mc:Ignorable="d">
 
-    <!-- CREATED BY Ngoc -->
+    <!-- CREATED BY  -->
 
     <Page.DataContext>
         <vm:MainPageViewModel x:Name="ViewModel" />
@@ -43,7 +43,8 @@
                         <AdaptiveTrigger MinWindowWidth="{StaticResource NarrowMinWidth}" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-
+                        <!--  TODO: change properties for narrow view  -->
+                        <!--<Setter Target="stateTextBox.Text" Value="Narrow Visual State" />-->
                         <Setter Target="ContactDetailsView.(RelativePanel.Below)" Value="pageStart"/>
                     </VisualState.Setters>
                 </VisualState>
@@ -52,7 +53,8 @@
                         <AdaptiveTrigger MinWindowWidth="{StaticResource NormalMinWidth}" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-
+                        <!--  TODO: change properties for normal view  -->
+                        <!--<Setter Target="stateTextBox.Text" Value="Normal Visual State" />-->
                         <Setter Target="ContactDetailsView.(RelativePanel.Below)" Value="pageStart"/>
                     </VisualState.Setters>
                 </VisualState>
@@ -61,7 +63,8 @@
                         <AdaptiveTrigger MinWindowWidth="{StaticResource WideMinWidth}" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-
+                        <!--  TODO: change properties for wide view  -->
+                        <!--<Setter Target="stateTextBox.Text" Value="Wide Visual State" />-->
                         <Setter Target="ContactDetailsView.(RelativePanel.Below)" Value="pageStart"/>
                     </VisualState.Setters>
                 </VisualState>
